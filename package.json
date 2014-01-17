@@ -1,0 +1,29 @@
+{
+  "name": "node-UserManagement",
+  "description": "Provides user authentication management through lockit which is a device like library in node",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "jade": "*",
+    "mongoose": "3.8.x"
+  },
+  "devDependencies": {
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "authenticator"
+  },
+  "keywords": [
+    "authentication",
+    "lockit",
+    "device"
+  ],
+  "author": "sumit bisht",
+  "license": "MIT"
+}
