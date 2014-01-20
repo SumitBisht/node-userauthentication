@@ -5,13 +5,14 @@
 // or if you want to use MongoDB
 exports.db = 'mongodb';
 exports.dbUrl = 'mongodb://127.0.0.1/test';
-exports.dbCollection = 'nodetest-users';
+exports.dbCollection = 'user';
 
 // email settings (same as nodemailer)
 exports.emailType = 'Stub';
+exports.url = 'http://localhost:8080';
 exports.emailSettings = {
   service: 'none',
-  auth: {
+  auth: {	
     user: 'none',
     pass: 'none'
   }
