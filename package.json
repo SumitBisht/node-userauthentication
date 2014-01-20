@@ -1,14 +1,15 @@
 {
   "name": "node-UserManagement",
   "description": "Provides user authentication management through lockit which is a device like library in node",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "express": "3.x",
     "jade": "*",
     "mongoose": "3.8.x",
     "lockit": "*",
-    "lockit-mongodb-adapter":"*"
+    "lockit-mongodb-adapter":"*",
+    "moment": "~2.5.0"
   },
   "devDependencies": {
   },
