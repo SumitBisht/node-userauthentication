@@ -33,6 +33,7 @@ app.get('/profile', utls.restrict(config), function(req, res){
 		}
 		var infos = {
 			title: 'Profile',
+			logged: true,
 			currentLoginIp: user.currentLoginIp,
 			failedLoginAttempts: req.session.failedLoginAttempts,
 			currentLoginTime: moment(user.currentLoginTime).format('ddd, MMM Do YYYY - HH:mm:ss'),

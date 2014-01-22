@@ -12,7 +12,11 @@ html
     div(class="panel panel-default")
         div(class="panel-heading")
             a(href="/") Index
-            a(href="/signup")  Signup
+            if logged
+              a(href="/logout")  Logout
+              a(href="/profile")  Access your Profile
+            else
+              a(href="/signup")  Signup
             a(href="/Login")   Login
             a(href="/forgot-password")    Forgot Password
             a(href="/delete-account")    Delete Account
